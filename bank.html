@@ -15,15 +15,15 @@
         <div class="grid grid-cols-3 gap-4 w-9/12 mx-auto text-white">
            <div class="bg-blue-600 p-8 rounded-xl">
                 <h4 class="text-2xl">Deposit</h4>
-                <h2 class="text-5xl" >$ <span id="deposit-total">0</span></h2>
+                <h2 class="text-5xl" >$<span id="deposit-total">0</span></h2>
             </div>
             <div class="bg-red-600 p-8 rounded-xl">
                 <h4 class="text-2xl">Widraw</h4>
-                <h2 class="text-5xl">$ 5000</h2>
+                <h2 class="text-5xl">$<span id="widraw-total">0</span></h2>
             </div>
             <div class="bg-green-800 p-8 rounded-xl">
                 <h4 class="text-2xl">Ballance</h4>
-                <h2 class="text-5xl">$<span id="ballence-total">0</span></h2>
+                <h2 class="text-5xl">$<span id="ballence-total">20000</span></h2>
             </div>
         </div>
     </section>
@@ -40,7 +40,7 @@
              <div class="bg-purple-600 p-8 rounded-xl">
                  <h4 class="text-2xl text-white mb-4">Please Widraw</h4>
                  <div>
-                    <input type="text" name="" id="user-widraw" class="w-9/12 block px-3 mb-2" placeholder="Amount you want to widraw">
+                    <input type="text" name="" id="widraw-field" class="w-9/12 block px-3 mb-2" placeholder="Amount you want to widraw">
                     <button id="btn-widraw" class="bg-amber-600 hover:bg-sky-700 px-8 py-2 text-white font-medium rounded-lg">Widraw</button>
                 </div>
              </div>
@@ -56,7 +56,7 @@
     
     
     
-    
+    <script src="/js/widraw.js"></script>
     <script src="/js/deposit.js"></script>
 </body>
 </html>
